@@ -1,0 +1,141 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  background-color: antiquewhite;
+}
+
+.header__logo {
+  height: 50px;
+  object-fit: contain;
+  margin-left: 15px;
+}
+.header__icon {
+  margin-right: 8px;
+}
+.header__icon:hover {
+  /*background-color: #f87373;*/
+  cursor: pointer;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.micon {
+  padding: 4px 4px 4px 4px;
+}
+.micon:hover {
+  color: #ffffff;
+  background-color: #504f4f;
+}
+
+.avtdd {
+  position: fixed;
+  list-style: none;
+  padding: 20px;
+  top: 1;
+  right: 0;
+  background: rgb(243, 238, 238);
+  width: 190px;
+  z-index: 100;
+  display: flex;
+  border: 1px solid rgb(184, 182, 182);
+  flex-direction: column;
+  font-weight: bold;
+}
+.Prof {
+  border-bottom: 1px solid rgb(184, 182, 182);
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  color: red;
+}
+.lgout {
+  border-top: 1px solid rgb(184, 182, 182);
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: large;
+  align-items: center;
+}
+.lgouticon {
+  transform: translateY(6px);
+  padding-right: 5px;
+}
+.avtdd > li {
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.avtdd > li:hover {
+  background-color: #fbbebe;
+}
+
+.aLink {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.aLink:hover {
+  background-color: #fbbebe;
+}
+.arrow-up {
+  position: fixed;
+  top: 48px;
+  right: 98px;
+  z-index: 110;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+
+  border-bottom: 12px solid rgb(95, 94, 94);
+}
+.arrow-up2 {
+  position: fixed;
+  top: 48px;
+  right: 130px;
+  z-index: 110;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+
+  border-bottom: 12px solid rgb(95, 94, 94);
+}
+.noticon {
+  position: fixed;
+  list-style: none;
+  padding: 20px;
+  top: 60px;
+  right: 10px;
+  background: rgb(243, 238, 238);
+  width: 250px;
+  height: 500px;
+  z-index: 100;
+  display: flex;
+  border: 1px solid rgb(184, 182, 182);
+  flex-direction: column;
+  font-weight: bold;
+}
+.chaticon {
+  position: fixed;
+  list-style: none;
+  padding: 20px;
+  top: 60px;
+  right: 10px;
+  background: rgb(243, 238, 238);
+  width: 250px;
+  height: 500px;
+  z-index: 100;
+  display: flex;
+  border: 1px solid rgb(184, 182, 182);
+  flex-direction: column;
+  font-weight: bold;
+}

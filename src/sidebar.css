@@ -1,0 +1,12 @@
+.sidebar {
+  flex: 0.15;
+  padding-top: 10px;
+  height: 100vh;
+  background-color: rgb(51, 50, 50);
+  color: rgb(255, 255, 255);
+}
+
+.Links {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}

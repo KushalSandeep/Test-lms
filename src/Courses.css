@@ -1,0 +1,16 @@
+.coursecontents {
+  flex: 0.85;
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+
+.coursecontents > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.coursecards {
+  width: 116%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

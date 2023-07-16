@@ -1,0 +1,37 @@
+.contain {
+  margin-bottom: 40px;
+  margin-right: 20px;
+  width: 360px;
+  padding: 20px;
+  border: 1px solid rgb(5, 11, 177);
+  background-color: rgb(225, 251, 251);
+}
+
+.contain2 {
+  margin-bottom: 20px;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid rgb(5, 11, 177);
+  background-color: rgb(225, 251, 251);
+}
+
+.imgInfo {
+  height: auto;
+  width: 100%;
+}
+
+.contain:hover {
+  background-color: rgb(171, 174, 175);
+}
+
+.contain2:hover {
+  background-color: rgb(171, 174, 175);
+}
+.sembatch {
+  display: flex;
+  justify-content: space-between;
+}
+.sembatch > h4 {
+  padding-right: 10px;
+}
